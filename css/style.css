@@ -1,0 +1,55 @@
+.content {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h1 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.dir {
+    padding: 5px 0px;
+}
+
+.title {
+    background-color: grey;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.collapsible {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before{
+    content: '\f15b';
+    font-family: "Font Awesome 5 Free";
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+li.dir:before{
+   content: '\f07b';
+   font-family: "Font Awesome 5 Free";
+   margin-left: -20px;
+   margin-right: 10px;
+   font-weight: 900;
+}
+
+
+li.dir.open:before{
+    content: '\f07c';
+    font-family: "Font Awesome 5 Free";
+    margin-left: -20px;
+    margin-right: 10px;
+    font-weight: 900;
+}
