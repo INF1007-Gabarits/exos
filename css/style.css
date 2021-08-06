@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
 .content {
     max-width: 600px;
     margin: auto;
     background: white;
     margin-top: 20px;
     padding: 10px;
+    font-size: 14px;
+    border-radius: 1%;
+    color: #292929;
 }
 
 h1 {
     max-width: 600px;
     margin: auto;
     margin-top: 40px;
+    color: #292929;
 }
 
 .dir {
@@ -17,9 +28,14 @@ h1 {
 }
 
 .title {
-    background-color: grey;
-    width: 100%;
     padding: 5px 0px;
+    cursor: pointer;
+    font-size: medium;
+    color: #292929;
+}
+
+.title:hover {
+    color:#4285F4;
 }
 
 .collapsible {
@@ -32,6 +48,7 @@ li {
 
 li:before{
     content: '\f15b';
+    color: #292929;
     font-family: "Font Awesome 5 Free";
     margin-left: -20px;
     margin-right: 10px;
@@ -39,6 +56,7 @@ li:before{
 
 li.dir:before{
    content: '\f07b';
+   color: #292929;
    font-family: "Font Awesome 5 Free";
    margin-left: -20px;
    margin-right: 10px;
@@ -48,8 +66,41 @@ li.dir:before{
 
 li.dir.open:before{
     content: '\f07c';
+    color: #292929;
     font-family: "Font Awesome 5 Free";
     margin-left: -20px;
     margin-right: 10px;
     font-weight: 900;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #292929;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #292929;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4285F4;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #4285F4;
+    text-decoration: underline;
+}
+
+.solid {
+    border-top: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: -20px;
+    margin-right: 20px;
 }
