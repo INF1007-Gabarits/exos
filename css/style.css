@@ -11,7 +11,7 @@ body {
     background: white;
     margin-top: 20px;
     padding: 10px;
-    font-size: medium;
+    font-size: large;
     border-radius: 1%;
     color: #292929;
 }
@@ -30,7 +30,7 @@ h1 {
 .title {
     padding: 5px 0px;
     cursor: pointer;
-    font-size: medium;
+    font-size: large;
     color: #292929;
 }
 
